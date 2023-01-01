@@ -1,11 +1,23 @@
 import React from 'react'
-import Product from './product'
+import Product from './Product'
 import './Products.css'
 const Products = () => {
   return (
     <div>
-      <section className="products"></section>
+      <section className="products">
+
       <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      </section>
+
     </div>
   )
 }
